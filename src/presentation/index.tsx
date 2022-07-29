@@ -6,6 +6,9 @@ import SlideMisconcept3 from './Slide-Misconcept3';
 import SlideWhatsWebDev from './Slide-WhatsWebDev';
 import SlideGettingStarted from './Slide-GettingStarted';
 import SlideReactConcept from './Slide-ReactConcept';
+import SlideWebGL from './Slide-WebGL';
+import SlideThanks from './Slide-Thanks';
+import SlideWebAssembly from './Slide-WebAssembly';
 
 const template = () => (
   <FlexBox
@@ -33,6 +36,9 @@ function MyDeck() {
       <SlideWhatsWebDev />
       <SlideGettingStarted />
       <SlideReactConcept />
+      <SlideWebGL />
+      <SlideWebAssembly />
+      <SlideThanks />
     </Deck>
   );
 }
